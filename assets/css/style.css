@@ -123,7 +123,7 @@ div.hidden{
 #login a{
   color: #728089;
 }
-.none a{
+.end-form a{
   text-decoration: none;
 }
 .button{
@@ -183,22 +183,28 @@ article.ar-phone{
 
 #video1{
   color: black;
-  position: relative;
+  line-height: 0;
 }
 #video2{
   color: black;
-  position: relative;
+  line-height: 0;
 }
 #video3{
   color: black;
-  position: relative;
   height: 415px;
 }
 .text-video1{
-  position: absolute;
   width: 300px;
   display: inline-block;
   padding: 30px 50px;
+  line-height: normal;
+}
+.text-video2{
+  float: right;
+  width: 300px;
+  display: inline-block;
+  padding: 30px 50px;
+  line-height: normal;
 }
 .text-video3{
   width: 300px;
@@ -219,16 +225,9 @@ article.ar-phone{
   float: right;
   display: inline-block;
 }
-.text-video2{
-  float: right;
-  width: 300px;
-  display: inline-block;
-  padding: 30px 50px;
-}
 .link-video2{
   display: inline-block;
 }
-
 footer{
   background-color: #333447;
   color: white;
