@@ -74,9 +74,6 @@ inputText[3].addEventListener("blur",function () {
 document.getElementsByClassName("button")[0].addEventListener("click",function (e) {
   e.preventDefault();
   if (cantBuenas == 4) {
-    inputText[0].value="";
-    inputText[1].value="";
-    inputText[2].value="";
-    inputText[3].value="";
+    document.getElementById("login").reset();
   }
 })
