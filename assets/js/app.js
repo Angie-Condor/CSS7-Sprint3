@@ -1,3 +1,4 @@
+// Cambiar el color del Menú de Navegación
 var endScroll = 0;
 window.addEventListener("scroll", function () {
   var header = document.getElementById("header");
@@ -9,7 +10,8 @@ window.addEventListener("scroll", function () {
     header.classList.remove("header-color");
   }
 })
-//Visible inputs
+
+//Hacer visible los inputs del formulario
 document.getElementById("visible").addEventListener("click",function () {
   var inputHidden = document.getElementsByClassName("input-box");
   inputHidden[1].style.display="block";
@@ -17,7 +19,7 @@ document.getElementById("visible").addEventListener("click",function () {
   inputHidden[3].style.display="block";
 })
 
-//Validacion
+//Validaciones de Formulario
 var letras = function (e) {
     var codLetra = e.keyCode;
     if ((codLetra>=97 && codLetra<=122) || (codLetra>=65 && codLetra<=90) || codLetra == 39 || codLetra == 32 || codLetra==241 || codLetra==209) {
