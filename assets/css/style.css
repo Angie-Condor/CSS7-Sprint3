@@ -66,14 +66,14 @@ li a{
 .signup{
   visibility: hidden;
 }
-#home{
+
+.video-portada{
   width: 100%;
-  background-image: url(../images/fondo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 750px;
+  height: 100%;
+  z-index: -10;
+  position: relative;
 }
+
 .up-case{
   text-transform: uppercase;
 }
@@ -85,7 +85,10 @@ li a{
 #login{
   width: 450px;
   background-color: white;
-  float: right;
+  /*float: right;*/
+  position: absolute;
+  top: 0;
+  right: 0;
   padding: 20px 50px;
   margin-top: 115px;
 }
@@ -115,6 +118,9 @@ div.hidden{
   height: 30px;
   margin-bottom: 30px;
   color: #352384
+}
+.input:focus{
+  outline: none;
 }
 .icon{
   display: none;
