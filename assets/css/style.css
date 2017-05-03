@@ -99,10 +99,6 @@ li a{
   color: #352384;
   letter-spacing: 1.5px;
 }
-.icon{
-  display: none;
-  width: 25px;
-}
 ::placeholder{
   font-family: 'Montserrat', sans-serif;
 }
@@ -110,7 +106,7 @@ div.hidden{
   display: none;
 }
 .input-box{
-  display: inline-block;
+  position: relative;
 }
 .input-box input{
   border: none;
@@ -119,6 +115,14 @@ div.hidden{
   height: 30px;
   margin-bottom: 30px;
   color: #352384
+}
+.icon{
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 68px;
 }
 #login a{
   color: #728089;
