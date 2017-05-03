@@ -120,6 +120,11 @@ div.hidden{
   margin-bottom: 30px;
   color: #352384
 }
+
+.input:focus{
+  outline: none;
+}
+
 #login a{
   color: #728089;
 }
